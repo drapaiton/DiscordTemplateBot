@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="static/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        p {
+            font-family: 'Indie Flower', cursive;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div
+        class="my-5 card shadow-lg rounded mx-auto bg-white border-dark card-body col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3">
+        <div style="text-align: center;">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                style="width: 312px; height:312px;"><br>
+            <p style="text-align: center; font-size:xx-large">Neo Bot</p>
+            <!-- TODO Change the id of the bot -->
+            <div id="formulary">
+                <form>
+                    <div class="form-group">
+                        <label for="clientid">Bot Client Id</label>
+                        <input type="password" class="form-control" id="clientid" placeholder="it's like 20 characters">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your information with
+                            anyone
+                            else.</small>
+                    </div>
+                </form>
+            </div>
+            <button type="submit" class="btn-primary btn" style="width: 312px;" onclick="discordInvitation()"> Invite to
+                your
+                server</button>
+            <br>
+        </div>
+    </div>
+    </div>
+    <script>
+        function discordInvitation() {
+            let id = document.querySelector('#clientid').value
+            let inviteLink = `https://discord.com/api/oauth2/authorize?client_id=${id}&permissions=0&scope=bot`
+            window.location.replace(inviteLink)
+        }   
+    </script>
+</body>
+
+</html>
