@@ -1,8 +1,11 @@
-# NeoBot 😎
-friendly customized discord bot 
+# DiscordTemplateBot 😎
+Friendly customizable discord bot 
+set TOKEN and PREFIX environment variables
+or .env file in development mode
 
 # Discord Chatbot hosted on Heroku
 Discord Chatbot with automated task implementations, can be used as a template, feel free to fork here
+
 ## Deployment
 You can host it on [Heroku](https://www.heroku.com) for free ([account verification required](https://devcenter.heroku.com/articles/account-verification)).
 
@@ -16,4 +19,4 @@ You can host it on [Heroku](https://www.heroku.com) for free ([account verificat
  - `N/A` - TODO -->
 
 ## Permissions
-![Deploy](/staticSite/staticFiles/permissions.png)
+![Deploy](/static/permissions.png)
