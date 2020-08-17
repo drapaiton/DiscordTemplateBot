@@ -11,6 +11,10 @@ You can host it on [Heroku](https://www.heroku.com) for free ([account verificat
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+You can use this web to get your own bot invitations
+
+https://drapaiton.github.io/DiscordTemplateBot/
+
 ## Technology Stack
  - [Heroku](https://www.heroku.com) as a Hosting Platform
 <!-- 
